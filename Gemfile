@@ -23,7 +23,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
-
+gem 'devise'
+#it's used by most rails apps that need user authentication.
+#we need the ability for users to be able to sign up, log in, and log out. This is called user authentication.
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
