@@ -1,0 +1,116 @@
+html{
+    background: url("/app/views/images/image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     font-family: 'Helveica Neue',sans-serif;
+}
+.cov_msg{
+    margin:0 auto;
+    color:burlywood;
+    width:500;
+    height:100;
+    background: rgba(0,0,0,0.4);
+    padding:8px;
+    margin-top:200px;
+    text-align:center;
+}
+.cov_msg h1{
+    font-size: 100px;
+    margin-top:2px;
+}
+.cov_msg p{
+    margin-top:240px;
+}
+.prof-box{
+    width: 400px;
+    height: 400px;
+    background: rgba(0,0,0,0.7);
+    padding: 8px;
+    margin: 0 auto; /* Used for centering the elements */
+    color: burlywood;
+    margin-top: 800px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+h1 {
+    letter-spacing: 10;
+    font-size: 30;
+    font-weight: 300;
+    -webkit-font-smoothing: initial;
+    font-stretch: semi-condensed;
+    -webkit-font-size-delta: initial;
+}
+p {
+    font-weight: 400;
+    font-size: smaller;
+    /* font-stretch: expanded; */
+    font-variant: small-caps;
+    /* -webkit-font-smoothing: auto; */
+    /* font-feature-settings: initial; */
+}
+h5 {
+    font-stretch: semi-expanded;
+    font-variant: unicase;
+}
+.prof-pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: -60px;
+}
+.socio-icons{
+    font-size: 40px;
+}
+.socio-icons a{
+    color:white;
+}
+.resume_pic{
+    margin:0 auto;
+    margin-top:600px;
+    width:500px;
+    height:600px;
+    padding:8px;
+    margin-left:-60px;
+    padding-bottom: 16px;
+}
+/*@media screen and (max-width: 500px) {
+ applies only if the screen is narrower than 500px 
+  .tabs {
+    padding: 3px 1em
+  }
+
+}*/
+
+@media(max-width:500px){
+    /* applies only if the screen is narrower than 500px */
+    h1{font-size:20px;
+        padding:5px;
+    }
+    .resume_pic{
+        width:250px;
+        height:250px;
+    }
+}
+
+ul{
+    padding:15px;
+    background:rgba(0,0,0,0.6);
+    color:burlywood;
+    text-align: center;
+    width: 700px;
+    margin:0px auto;
+    
+    
+}
+
+li{
+    display:inline;
+    padding:0px 50px 0px 10px;
+    
+}
+a{
+    color:burlywood;
+    text-decoration: none;
+}
